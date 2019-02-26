@@ -9,7 +9,7 @@ composer require offbeatwp/pagenavi
 Add in your `config/services.php`:
 
 ```php
-\OffbeatWP\PageNavi\Services::class,
+\OffbeatWP\PageNavi\Service::class,
 ```
 ## Usage
 
