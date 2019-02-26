@@ -1,0 +1,18 @@
+{
+    "name": "offbeatwp/pagenavi",
+    "description": "Pagenavi integration for OffbeatWP",
+    "license": "MIT",
+    "type": "offbeatwp-service",
+    "authors": [
+        {
+            "name": "Chris Schrijver",
+            "email": "chris@raow.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OffbeatWP\\PageNavi\\": "src"
+        }
+    },
+    "require": {}
+}
