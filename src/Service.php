@@ -2,6 +2,7 @@
 namespace OffbeatWP\PageNavi;
 
 use OffbeatWP\Services\AbstractService;
+use OffbeatWP\Contracts\View;
 
 class Service extends AbstractService
 {
