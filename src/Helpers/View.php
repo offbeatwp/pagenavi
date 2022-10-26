@@ -13,7 +13,7 @@ class View
         return wp_pagenavi(['query' => $postCollection->getQuery(), 'echo' => false]);
     }
 
-    public function fromCustomResultSet(array $paginationOptions): string
+    public function fromCustomResultSet(array $paginationOptions): ?string
     {
         if (!function_exists('wp_pagenavi')) {
             return 'Please activate wp_pagenavi plugin.';
